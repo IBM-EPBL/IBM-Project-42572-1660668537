@@ -46,4 +46,9 @@ Integrate the application with news APIs and store the data in the database.
 
 The database will have all the details and the user can search the news by using a search bar.
 
+			
+			DEMO LINK 
+			
+		https://drive.google.com/drive/folders/1EiPwWxqC6IsiL96bcUm5lljGj7rIStbM
+
 
