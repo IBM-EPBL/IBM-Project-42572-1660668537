@@ -1,0 +1,1 @@
+newsapi = NewsApiClient(api_key='9ff3955d6a1e4752b1f35b45ed3c2f44')

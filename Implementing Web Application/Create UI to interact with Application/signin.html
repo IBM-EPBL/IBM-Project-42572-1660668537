@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title></title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/img/logo.png" rel="icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ac43d8ee-d139-4510-bac0-ea881b25733f", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c3f595e8-c61f-461a-8de8-dc3a72dadb12", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      
+      <a href="index.html" class="logo"><img src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/img/logo.png" alt="" class="img-fluid"></a>
+      <h1 class="logo"><a href="index.html">AKAV</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index">Home</a></li>
+          <li><a class="nav-link scrollto" href="./index">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Signin</li>
+        </ol>
+        
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+<!-- ARTICLE -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-2"><h3>Login</h3></div>
+  </div>
+
+  <form method="POST" action="{{url_for('check_member')}}">
+    <div class="mb-3">
+      <p class="text-danger">{{msg3}}</p>
+    <label for="email" class="form-label">
+      Email Address</label>
+     <input type="email" class="form-control" name="email" /> <p class="text-danger">{{msg}}</p>
+    <br><label for="email" class="form-label">
+      Password</label>
+     <input type="password" class="form-control" name="password" /><p class="text-danger">{{msg2}}</p>
+    <br>
+    <input type="submit" class="btn btn-danger" value="Submit"></div>
+  </form>
+
+    <center><p>If you want return,<a href="./signup">Signup</a></p></center>
+  </div>
+  </section>
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+ <l style="color: whitesmoke;">
+        <div class="text-center"><div class="copyright">
+        &copy; Copyright <strong><span>Akav</span></strong>. All Rights Reserved
+      </div>
+        </div>  
+</l>
+      </div>
+  </section><!-- End Cta Section -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/ootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/aos/aos.js"></script>
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="https://ibmnewstracker.s3.jp-tok.cloud-object-storage.appdomain.cloud/assets/js/main.js"></script>
+
+</body>
+
+</html>
